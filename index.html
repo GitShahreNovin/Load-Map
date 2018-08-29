@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script>
+        function loadMap() {
+            var mapOptions = {
+                center: new google.maps.LatLng(32.5848, 56.515777),
+                zoom: 4,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            };
+            var map = new google.maps.Map(document.getElementById("mymap"), mapOptions);
+        }
+        google.maps.event.addDomListener(window, 'load', loadMap);
+    </script>
+</head>
+
+<body>
+    <a href="http://ebrahiminejad.com/%D8%A2%D9%85%D9%88%D8%B2%D8%B4-%DA%A9%D8%A7%D8%B1-%D8%A8%D8%A7-%D9%86%D9%82%D8%B4%D9%87-%D9%87%D8%A7%DB%8C-%DA%AF%D9%88%DA%AF%D9%84-%D8%AF%D8%B1-html/">راهنمای استفاده</a>
+
+    <div id="mymap" style="width:500px; height:400px;"></div>
+</body>
+
+</html>
